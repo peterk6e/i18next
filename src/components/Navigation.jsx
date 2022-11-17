@@ -2,11 +2,11 @@ import React, { useContext } from "react"
 import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap"
 import { useTranslation } from "react-i18next"
 import i18n from "../i18n"
-import LocaleContext from "../LocaleContext"
+import { LocContext } from "../LocaleContext"
 
 const Navigation = () => {
   const { t } = useTranslation()
-  const { locale } = useContext(LocaleContext)
+  const { locale } = useContext(LocContext)
 
   function changeLocale(l) {
     if (locale !== l) {

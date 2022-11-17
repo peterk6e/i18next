@@ -6,7 +6,7 @@ const defaultValue = {
   setLocale: () => {},
 }
 
-const LocContext = createContext(defaultValue)
+export const LocContext = createContext(defaultValue)
 
 const LocaleContext = ({ children }) => {
   const [locale, setLocale] = useState(i18n.language)
