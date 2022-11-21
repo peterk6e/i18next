@@ -6,11 +6,12 @@ import { LocContext } from "../LocaleContext"
 
 const Navigation = () => {
   const { t } = useTranslation()
-  const { locale } = useContext(LocContext)
+  const { locale, setLocale } = useContext(LocContext)
 
   function changeLocale(l) {
     if (locale !== l) {
       i18n.changeLanguage(l)
+      setLocale(l) // might be unnecessary
     }
   }
 

@@ -1,4 +1,4 @@
-import React, { Suspense, useState } from "react"
+import React, { Suspense } from "react"
 import { Container } from "react-bootstrap"
 import "bootstrap/dist/css/bootstrap.min.css"
 import Greetings from "./components/Greetings"
