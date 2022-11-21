@@ -1,6 +1,6 @@
 {
   "name": "i18next",
-  "homepage": "https://peterk6e.github.io/i18next",
+  "homepage": "./",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
